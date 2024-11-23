@@ -1,0 +1,33 @@
+body{
+    font-family: 'helvetica';
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    text-align: center;
+    font-size: 100%;
+    background-color: aliceblue;
+    height: auto;
+}
+
+
+input{
+    font-size: 70%;
+    text-align: center;
+    padding: 5px 7px;
+}
+
+canvas{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 3px 5px 6px black;
+}
+
+section.relative{
+    position: absolute;
+    top: 560px;
+    left: 120px;
+}
+
+.hidden, #hidekeys {
+    display: none;
+}

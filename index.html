@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arsalan">
+    <meta name="description" content="This is a basic version of an old school game called Snake">
+
+    <title>The Snake Game</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/favicon.png" type="x-icon/image">
+
+
+</head>
+<body>
+    <p>
+      Speed:
+      <input type="number" id="gameSpeed" value="5" min="1" max="9" step="1">
+      <br>
+      <br>
+      <input type="checkbox" id="gameDifficulty"  name="difficulty" value="Easy">
+      <Label for="Easy">Easy Mode</Label>
+      <br>
+      <br>
+      <input type="button" id="gameStart" value="Start">
+      <br>
+   </p>
+
+   <section>
+      <!-- canvas is used for graphics and animations -->
+      <canvas id='gameArea'></canvas>
+   </section>
+   <section class="relative">
+   </section>
+   <section class="hidden">
+      <img id="canvasBG" src="img/background.png" alt="green grass">
+      <img id="mouse" src="img/food.png" alt="a mouse head">
+      <img id="snakeHead" src="img/snake-headD.png" alt="a snake head">
+      <img id="snakeHead1" src="img/snake-headU.png" alt="a snake head">
+      <img id="snakeHead2" src="img/snake-headR.png" alt="a snake head">
+      <img id="snakeHead3" src="img/snake-headL.png" alt="a snake head">
+      <img id="snakeBody" src="img/snake-body.png" alt="a snake head">
+   </section>
+
+   <script src="app.js"></script>
+</body>
+</html>
